@@ -1,0 +1,10 @@
+@import '../../../main-styles.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+app-note-list {
+  width: 70%;
+}

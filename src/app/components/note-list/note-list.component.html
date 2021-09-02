@@ -1,0 +1,7 @@
+<mat-list>
+  <p class="text" *ngIf="isNoteListEmpty()">There are no notes.</p>
+  <app-note-list-item
+    *ngFor="let note of notes"
+    [note]="note"
+  ></app-note-list-item>
+</mat-list>

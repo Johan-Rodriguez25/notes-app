@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+/*Global styles for notes app*/
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+:root {
+  --primary-color: #303f9f;
+  --text-light-color: #ffffff;
+  --text-dark-color: #212121;
+  --text-secondary-color: #757575;
+  --accent-color: #448aff;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+
+  font-family: Roboto, 'Nunito', sans-serif;
+  background: #23262e;
+
+  font-size: 18px !important;
+}

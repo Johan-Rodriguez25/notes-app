@@ -1,0 +1,6 @@
+<mat-card>
+  <mat-card-title>{{ note.title }}</mat-card-title>
+  <mat-card-content>{{ note.content }}</mat-card-content>
+  <div class="x-button" (click)="onXButtonClick(note._id)"></div>
+  <div class="update-button" (click)="updateNote(note._id)"></div>
+</mat-card>
